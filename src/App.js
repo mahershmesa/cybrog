@@ -1,5 +1,6 @@
 import './App.css'
-import { Header, Footer, Container,Hero } from './components/index'
+import { Container } from './components/index'
+import { Header,Footer,Hero} from './sections/index'
 
 const App = ()=> {
     return (

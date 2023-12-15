@@ -11,11 +11,14 @@
     --margin-primary: var(--distance-primary);
     --border-radius-primary:calc(var(--distance-primary)/2);
 
-    --font-weight-bold:900px;
-    --font-weight-normal:400px;
+    --font-family-primary: 'Poppins', sans-serif; 
+    --font-weight-bold:700px;
+    --font-weight-normal:300px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
 body{
     background-color: var(--color-bg-body);
+    font-family: var(--font-family-primary);
 }
