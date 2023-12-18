@@ -1,7 +1,6 @@
 import './MostPopular.css'
-import { card } from '../../components/index'
+import { Card } from '../../components/index'
 
-import popular_01 from '../../assets/images/popular-01.jpg'
 
 const MostPopular = () => {
   return (
@@ -11,106 +10,14 @@ const MostPopular = () => {
         <h4>MOst Popular</h4>
       </div>
        <div className='most-popular-items'>
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
+        
+        <Card title="fortnite" category="sandbox" rate="3.8" download="2.3M" />
+        <Card title="pubg" category="stream-x" rate="4.8" download="1.1M"/>
+        <Card title="dota2" category="legendary" rate="2.7" download="5.3M"/>
+        <Card title="cs-go" category="Battle 5" rate="3.9" download="6.1M" />
 
-         </div>
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
 
-         </div>
-
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
-
-         </div>
-
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
-
-         </div>
-
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
-
-         </div>
-
-         <div className='most-popular-item'>
-            <div className='card-wrapper'>
-               <img className='most-popular-item-image' src={popular_01} />
-               <div className='most-popular-item-content'>
-                <h4 className='most-popular-item-title'>
-                    Fortnite<br />
-                    <span>Sandbox</span>
-                    </h4> 
-                    <ul>
-                        <li><span>4.8</span></li>
-                        <li><span>2.3M</span></li>
-                    </ul>
-               </div>
-            </div>
-
-         </div>
+        
        </div>
     </div>
     </>
