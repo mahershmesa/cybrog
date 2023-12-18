@@ -1,4 +1,6 @@
 import './MostPopular.css'
+import { card } from '../../components/index'
+
 import popular_01 from '../../assets/images/popular-01.jpg'
 
 const MostPopular = () => {
