@@ -1,5 +1,5 @@
 import './MostPopular.css'
-import { Card } from '../../components/index'
+import { Card , SectionHeader , SectionWrapper } from '../../components/index'
 import popular_01 from '../../assets/images/popular-01.jpg'
 
 import popular_02 from '../../assets/images/popular-02.jpg'
@@ -11,10 +11,8 @@ import popular_04 from '../../assets/images/popular-04.jpg'
 const MostPopular = () => {
   return (
     <>
-    <div className='section-wrapper'>
-      <div className='section-header'>
-        <h4>MOst Popular</h4>
-      </div>
+    <SectionWrapper>
+      <SectionHeader>MostPopular</SectionHeader>
        <div className='most-popular-items'>
         
         <Card image={popular_01} title="fortnite" category="sandbox" rate="3.8" download="2.3M" />
@@ -29,7 +27,7 @@ const MostPopular = () => {
 
         
        </div>
-    </div>
+       </SectionWrapper>
     </>
   )
 }
