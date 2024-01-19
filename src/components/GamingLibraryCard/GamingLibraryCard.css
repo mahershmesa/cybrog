@@ -1,0 +1,9 @@
+.gaming-library-card{
+    flex: 1 1 100%;
+}
+
+
+.gaming-library-card ul{
+    display: flex;
+    justify-content: space-between;
+}
