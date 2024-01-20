@@ -2,7 +2,7 @@ import popular_01 from '../assets/images/popular-01.jpg'
 
 import popular_02 from '../assets/images/popular-02.jpg'
 import popular_03 from '../assets/images/popular-03.jpg'
-import popular_04 from '../assets/images/popular-04.jpg'
+//import popular_04 from '../assets/images/popular-04.jpg'
 
 
 const GamingLibraryData = [
@@ -15,3 +15,6 @@ const GamingLibraryData = [
 ]
 
 export default GamingLibraryData
+
+
+//mostpopular
